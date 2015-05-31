@@ -6,9 +6,11 @@ I needed to integrate QCustomPlot visualizations into a larger Windows 64bit Vis
 # Build
 Note: I use git shell (wrapped powershell) syntax, since I'm a believer in bash
 
-$ cd $QCustomPlotWithCMAKEROOT
-$ mkdir build64; cd build64
-$ cmake -DCMAKE_PREFIX_PATH=C:\Qt\5.4\msvc2013_64\ ../src -G "Visual Studio 11 Win64"
+  $ cd $QCustomPlotWithCMAKEROOT
+  
+  $ mkdir build64; cd build64
+  
+  $ cmake -DCMAKE_PREFIX_PATH=C:\Qt\5.4\msvc2013_64\ ../src -G "Visual Studio 11 Win64"
 
 
 
